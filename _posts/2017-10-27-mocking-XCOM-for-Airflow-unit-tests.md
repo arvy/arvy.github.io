@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mocking Airflow's XCOM For Unit Tests
 ---
 I've been experimenting with Airflow quite a bit recently. One thing that becomes clear very quickly is just how little thought has been put into facilitating ease of testing (from an end-user point of view). Not only is it very difficult to orchestrate DAGs for an integration test, there isn't any easy way to fake the context for a unit test.
